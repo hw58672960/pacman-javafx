@@ -29,6 +29,6 @@ public class Sound {
 
 
     public static void dieSound() {
-        new MediaPlayer(new Media(Paths.get("resource/win.wav").toUri().toString()));
+        new MediaPlayer(new Media(Paths.get("resource/die.wav").toUri().toString()));
     }
 }
