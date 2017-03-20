@@ -27,6 +27,6 @@ public class InputNamePane extends VBox {
         lbok.setTextFill(Color.GOLD);
         lbok.setOnMouseEntered(e -> lbok.setFont(new Font("Calibre", 30)));
         lbok.setOnMouseExited(e -> lbok.setFont(new Font("Calibre", 30)));
-        getChildren().addAll(lbMessage, lbok, txName);
+        getChildren().addAll(lbMessage,txName,lbok);
     }
 }
